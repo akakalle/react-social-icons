@@ -11,7 +11,6 @@
     "examples:build": "parcel build examples/index.html",
     "lint": "eslint src",
     "prepublish": "NODE_ENV=production npm run build",
-    "prepare": "npm run build",
     "start": "npm run examples:serve",
     "test": "npm run lint && npm run test:js && npm run test:ts",
     "test:watch": "npm run test:js -- --watch",
